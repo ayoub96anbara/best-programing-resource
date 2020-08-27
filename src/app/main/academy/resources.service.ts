@@ -44,7 +44,7 @@ export class AcademyResourcesService {
         {
             'title': 'Durga',
             'categories': ['java_ecosystem', 'angular_ecosystem','linux','docker'],
-            'description': 'java spring maven jee angular javascript typescript webpack',
+            'description': 'java spring maven jee angular javascript typescript webpack linux docker',
             'link_img': 'https://yt3.ggpht.com/a/AATXAJxKjte_UQozf39SBZOvlz0zsGMoW1VT9azr-koX0w=s100-c-k-c0xffffffff-no-rj-mo',
             'link_resource': 'https://www.youtube.com/user/durgasoftware',
             'theme': 'theme1'
@@ -52,7 +52,7 @@ export class AcademyResourcesService {
         {
             'title': 'Mohamed youssfi',
             'categories': ['java_ecosystem','angular_ecosystem','docker'],
-            'description': 'java spring maven jee angular',
+            'description': 'java spring maven jee angular docker',
             'link_img': 'https://yt3.ggpht.com/a/AATXAJwAF3-0JzaTTs7poZvMNa2n3T2Q34CeBNTrfhnP=s100-c-k-c0xffffffff-no-rj-mo',
             'link_resource': 'https://www.youtube.com/channel/UCCwIYNpQVHZTd3Vx_krnmdA',
             'theme': 'theme1'
@@ -84,7 +84,7 @@ export class AcademyResourcesService {
         {
             'title': 'Telusko',
             'categories': ['java_ecosystem'],
-            'description': 'java spring ',
+            'description': 'java spring jee',
             'link_img': 'https://yt3.ggpht.com/a/AATXAJxDrD6psghJpCmLtxsJjmOKkEzgoJFnClh1wgC2=s100-c-k-c0xffffffff-no-rj-mo',
             'link_resource': 'https://www.youtube.com/user/javaboynavin',
             'theme': 'theme1'
@@ -181,6 +181,16 @@ export class AcademyResourcesService {
             
             'theme': 'podcasts'
         }
+        ,{
+
+            'title': 'Podcasts Angular',
+            'categories': ['podcasts'],
+            'description': 'Podcasts suggested by the angular team',
+            'link_img': '../../../assets/images/logos/podcast_ang.png',
+            'link_resource': 'https://angular.io/resources?category=community',
+
+            'theme': 'podcasts'
+        }
         ,
         {
 
@@ -207,7 +217,7 @@ export class AcademyResourcesService {
             'title': 'article about Spring',
             'categories': ['java_ecosystem'],
             'description': 'article was written by Zakariae Bou about Spring  ',
-            'link_img': 'https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg',
+            'link_img': 'https://scontent.fcmn2-1.fna.fbcdn.net/v/t1.0-9/78056869_2476742005756726_2125708039255228416_n.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=6R5CQ19Mz2gAX_GdHNO&_nc_ht=scontent.fcmn2-1.fna&oh=e1d382b1dc0fac4957cd2e59e41af83d&oe=5F6BF62F',
             'link_resource': 'https://www.facebook.com/groups/DevC.Casablanca/?post_id=913190782416233',
             
             'theme': 'facebook'
@@ -220,6 +230,26 @@ export class AcademyResourcesService {
             'link_img': 'https://colorlib.com/wp/wp-content/uploads/sites/2/angular-logo.png',
             'link_resource': 'https://github.com/brillout/awesome-angular-components',
             
+            'theme': 'theme1'
+        },
+        {
+
+            'title': 'SpringDeveloper',
+            'categories': ['java_ecosystem'],
+            'description': 'channel youtube that explains Spring',
+            'link_img': 'https://yt3.ggpht.com/a/AATXAJzkgENZq4qkJNVQ4JJ8e-evEXcWnJjaR-i926k9=s100-c-k-c0xffffffff-no-rj-mo',
+            'link_resource': 'https://www.youtube.com/user/SpringSourceDev/featured',
+
+            'theme': 'theme1'
+        },
+        {
+
+            'title': 'SpringDeveloper',
+            'categories': ['java_ecosystem'],
+            'description': 'channel youtube that explains Spring, Hibernate ',
+            'link_img': 'https://yt3.ggpht.com/a/AATXAJxTooqWNd6_pMTCpswVj41pi9cnFU6ZhhulTJXT=s100-c-k-c0xffffffff-no-rj-mo',
+            'link_resource': 'https://www.youtube.com/c/NareshIT/playlists',
+
             'theme': 'theme1'
         }
     ];

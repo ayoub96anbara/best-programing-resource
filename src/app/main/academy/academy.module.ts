@@ -15,14 +15,14 @@ import { FuseSidebarModule } from '@fuse/components';
 
 const routes = [
     {
-        path     : 'courses',
+        path     : 'academy',
         component: AcademyCoursesComponent,
     },
-
-    {
-        path      : '**',
-        redirectTo: 'courses'
-    }
+    //
+    // {
+    //     path      : '**',
+    //     redirectTo: 'courses'
+    // }
 ];
 
 @NgModule({

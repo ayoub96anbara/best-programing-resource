@@ -5,6 +5,7 @@ import { takeUntil } from 'rxjs/operators';
 import { fuseAnimations } from '@fuse/animations';
 
 import { AcademyResourcesService } from 'app/main/academy/resources.service';
+import {Title} from '@angular/platform-browser';
 
 @Component({
     selector   : 'academy-courses',
@@ -30,9 +31,11 @@ export class AcademyCoursesComponent implements OnInit, OnDestroy
      * @param {AcademyResourcesService} _academyCoursesService
      */
     constructor(
-        private _academyCoursesService: AcademyResourcesService
+        private _academyCoursesService: AcademyResourcesService,
+       private titleService:Title
     )
     {
+        this.titleService.setTitle("Academy");
         // Set the defaults
         this.currentCategory = 'all';
         this.searchTerm = '';
